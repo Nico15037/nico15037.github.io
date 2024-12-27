@@ -1,0 +1,4 @@
+[2024-10-28 19:13:44] [class-ss-archive-creation-job.php:112] Not starting; we're already in the middle of a job
+[2024-10-28 19:13:51] [class-ss-admin-settings.php:698] Received request to cancel static archive generation
+[2024-10-28 19:13:51] [class-ss-archive-creation-job.php:221] Cancelling job; job is not done
+[2024-10-28 19:13:51] [class-ss-archive-creation-job.php:232] The queue isn't empty; overwriting current task with a cancel task
