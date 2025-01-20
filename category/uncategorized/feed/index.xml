@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>Faraway Moon</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<title>Uncategorized &#8211; Faraway Moon</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
 	<lastBuildDate>Thu, 09 Jan 2025 00:06:03 +0000</lastBuildDate>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>/wp-content/uploads/2025/01/siteicon-150x150.png</url>
-	<title>Faraway Moon</title>
+	<title>Uncategorized &#8211; Faraway Moon</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
