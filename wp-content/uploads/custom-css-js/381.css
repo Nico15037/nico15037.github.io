@@ -1,0 +1,14 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.hoverhide img,
+.hoverhide figcaption {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	pointer-events: auto;
+}
+
+.hoverhide img:hover,
+.hoverhide img:hover + figcaption {
+	opacity: 1;
+}</style>
+<!-- end Simple Custom CSS and JS -->
