@@ -40,7 +40,7 @@ div#itoggle label.itoggle span{
 	width: 93px;
 	height: 27px;
 	margin-bottom: 20px;
-	background: url(/wp-content/plugins/draw-attention/public/includes/lib/drag-drop-featured-image/assets/images/itoggle.png) left bottom no-repeat;
+	background: url(https://www.farawaymoon.com/wp-content/plugins/draw-attention/public/includes/lib/drag-drop-featured-image/assets/images/itoggle.png) left bottom no-repeat;
 	cursor:pointer;
 	text-indent:-5000px;
 	}
