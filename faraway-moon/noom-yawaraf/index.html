@@ -51,8 +51,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="stylesheet" id="kadence-header-css" href="/wp-content/themes/kadence/assets/css/header.min.css?ver=1.3.6" media="all">
 <link rel="stylesheet" id="kadence-content-css" href="/wp-content/themes/kadence/assets/css/content.min.css?ver=1.3.6" media="all">
 <link rel="stylesheet" id="kadence-footer-css" href="/wp-content/themes/kadence/assets/css/footer.min.css?ver=1.3.6" media="all">
-<link rel="stylesheet" id="kadence-blocks-rowlayout-css" href="/wp-content/plugins/kadence-blocks/dist/style-blocks-rowlayout.css?ver=3.5.23" media="all">
-<link rel="stylesheet" id="kadence-blocks-column-css" href="/wp-content/plugins/kadence-blocks/dist/style-blocks-column.css?ver=3.5.23" media="all">
+<link rel="stylesheet" id="kadence-blocks-rowlayout-css" href="/wp-content/plugins/kadence-blocks/dist/style-blocks-rowlayout.css?ver=3.5.24" media="all">
+<link rel="stylesheet" id="kadence-blocks-column-css" href="/wp-content/plugins/kadence-blocks/dist/style-blocks-column.css?ver=3.5.24" media="all">
 <style id="kadence-blocks-global-variables-inline-css">
 :root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}
 </style>
@@ -169,8 +169,8 @@ img.pixelart {
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const taglines = [
-    "gaming",
-    "wowwee go play gamse", //cool war //me
+    "gaming", //hello world (world, if you're cool you don't need to look at these explanations/hints)
+    "wowwee go play gamse", //Thank you for the contribution to my vocabulary, Mr. Duchamp. //me
     "Also check out: Not-So-Distant Sun", //faraway moon //still considering that game
     "they should put bees on the moon", //atm10 //me/that productive bees game if I go through with it
 	"fly me to the [see above]", //frank sinatra //faraway moon
@@ -180,20 +180,23 @@ document.addEventListener("DOMContentLoaded", function() {
 	"Taking nonsense seriously", //MMMM //me
 	"Are We Celestial Yet?", //AWCY //faraway moon
 	"Gamedevs Against Websites", //GAW //me
-	"salvage not included", //oxygen not included //salvage planet
+	"salvage not included", //same for the oxygen //salvage planet
 	"So many transportation-based games!", //road trip, space trip, wandering tinkerers, ice journey
 	"Live for the Show, d-wait WHAT?", //ie for the show
 	"Talks of turbulent seas", //devil's lighthouse //whirlpull/alyx
-	"10,003,008,528^42", //transcendental cha-cha time //me
-	//"The right route down a dusty lane", //"You've gone the right route down a dusty lane!" //inexplicable //me
+	//"10,003,008,528^42", //likelihood that every universe could have zumba //me
+	//"The right route down a dusty lane" //inexplicable //me
 	"I am super mega ultra busy everyday", //bitches gonna try to remove my ladder //me
 	"I’m not a man, you see; I just recall", //attacked by a whale? //me
-	"Summoned by a call buried in us all", //wait a wHale? named Joey?? //me
+	"Summoned by a call, buried in us all", //wait a wHale? named Joey?? //me
 	"Checking off a guest list...", //charlie has his own inferno?? //me
-	"Abandon all hope, all ye who enter" //he DOES wow hope he doesn't burn //me
+	//"Abandon maybe just like a tiny bit of hope, all ye who enter" //he DOES oh wow //me
+	"Some answer when adventure calls..." //can you imagine that? //me/all these mfs are on an adventure
   ];
-  const chosen = taglines[Math.floor(Math.random() * taglines.length)];
+  let chosen = taglines[Math.floor(Math.random() * taglines.length)];
   const el = document.querySelector('.site-description'); // adjust selector if different
+	
+  if (document.body.classList.contains("page-id-1482")) chosen = "Lost at sea...";
   if (el) el.textContent = chosen;
 });
 </script><!-- end Simple Custom CSS and JS -->
